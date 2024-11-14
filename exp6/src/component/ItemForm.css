@@ -1,0 +1,94 @@
+.item-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter color for labels */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px; /* Increased padding for better touch targets */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: border 0.3s; /* Smooth transition for focus effect */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4caf50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    height: 80px;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Slightly larger font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-submit:hover {
+    background-color: #45a049; /* Darken button on hover */
+}
+
+.items-list {
+    margin-top: 20px;
+}
+
+.items-list h2 {
+    color: #333;
+    border-bottom: 2px solid #4caf50; /* Add a bottom border for emphasis */
+    padding-bottom: 10px; /* Space between text and border */
+}
+
+.items-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.items-list ul li {
+    background-color: #ffffff; /* White background for list items */
+    padding: 10px;
+    margin-bottom: 10px; /* Increased margin for better separation */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transform effect */
+}
+
+.items-list ul li:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}

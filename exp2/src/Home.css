@@ -1,0 +1,55 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000; 
+  color: #72cbdd; 
+}
+
+.home-container h1 {
+  font-size: 2.5rem; 
+  color: #72cbdd; 
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%; 
+  border: 5px solid #72cbdd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  margin: 20px 0; 
+  max-width: 150px; 
+  height: auto; 
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 2rem; 
+  margin: 10px 0; 
+}
+
+.links-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  margin-top: 20px; 
+}
+
+.link-item {
+  display: flex;
+  align-items: center; 
+  text-decoration: none; 
+  color: #72cbdd; 
+  font-weight: bold;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; 
+}
+
+.link-item:hover {
+  color: #007bff;
+  text-decoration: underline; 
+}
